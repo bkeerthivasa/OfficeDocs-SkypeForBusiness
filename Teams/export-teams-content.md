@@ -58,6 +58,8 @@ Here are some examples on how you can use these export APIs:
 > Meeting related control messages are currently not supported by Export API.
 
 - **Edited History:** If [your tenant is setup with Teams Retention Policy](/purview/create-retention-policies?tabs=teams-retention), Export API supports capturing messages' edited history for [individual & group chat](/graph/api/chat-getallretainedmessages), and [posts, comments in Public & Shared channels](/graph/api/channel-getallretainedmessages).
+- **List Transcripts:** Get all transcripts from scheduled online meeting instances for which the specified user is the organizer. This API currently only supports private scheduled meetings.
+- **List Recordings:** Get all recordings from scheduled online meeting instances for which the specified user is the organizer. This API currently only supports private scheduled meetings.
 
     To learn more about Teams Retention policy, see the [Manage retention policies for Microsoft Teams](/microsoftteams/retention-policies) for further details.
 
